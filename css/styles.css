@@ -1,0 +1,54 @@
+:root{
+    --link-color: #212121; 
+    --text-front-family: 'roboto', sans-serif;
+    --heading-front-family: 'raleway', sans-serif 
+}
+
+/* body{
+    background-color: red;
+} */
+
+.logowebstudio{
+    font-weight: bold;
+    font-family: var(--heading-front-family);
+}
+
+
+.activelink{
+ color:#2196F3;
+}
+
+.button-section{
+    cursor: pointer;
+}
+
+
+.global-header{
+    background-color: #FFFFFF;
+
+}
+
+.global-header .main-navigation a.activ .global-header .main-navigation a:visited{ 
+    color:var(--link-color);
+    
+   }
+     
+.background-secton{
+    background-color:#2F303A;
+    
+   }
+
+.global-header .main-navigation {
+    font-family :var(--text-front-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16 px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var (--heading-color)
+}
+
+
+
+
+
