@@ -1,54 +1,120 @@
-:root{
-    --link-color: #212121; 
-    --text-front-family: 'roboto', sans-serif;
-    --heading-front-family: 'raleway', sans-serif 
-}
-
-/* body{
-    background-color: red;
-} */
-
-.logowebstudio{
-    font-weight: bold;
-    font-family: var(--heading-front-family);
-}
-
-
-.activelink{
- color:#2196F3;
-}
-
-.button-section{
-    cursor: pointer;
-}
-
-
-.global-header{
-    background-color: #FFFFFF;
-
-}
-
-.global-header .main-navigation a.activ .global-header .main-navigation a:visited{ 
-    color:var(--link-color);
-    
-   }
-     
-.background-secton{
-    background-color:#2F303A;
-    
-   }
-
+body{
+    --text-font-family: 'roboto', sans-serif;
+    --color-text-font: #212121;
+    --color-paragraf: #757575;
+    --heading-font-family: 'Raleway', sans-serif;
+    --heading-color: #2196F3;
+} 
 .global-header .main-navigation {
-    font-family :var(--text-front-family);
+    font-family :var(--text-font-family);
     font-size: 14px;
     font-weight: 500;
-    line-height: 16 px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: var (--heading-color)
+    color: var (var(--color-text-font))
+}
+h1,
+h2,
+h3,
+h4{
+    font-weight: bold;
+    font-family: var(--text-font-family);
+    color: var(--color-text-font);
+}
+.logowebstudio a, .logo-studio a, span {
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+    font-weight: 700; 
+    color: var(--heading-color);
+    font-size: 26px;
+    text-decoration: none;
+}
+.logo-studio a, span{
+    color: #000000;
 }
 
+.mail a{
+    color: var(--heading-color);
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
 
+.telefon a{
+    color: var(--color-paragraf);
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav, .nav a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-item a,.nav-item-active a{
+    color:var(--color-text-font);
+    font-family: var(--text-font-family);
+    font-size: 14px;
+    width: 500;
+}
 
+.nav-item-active a{
+    color:var(--heading-color);
+}
 
+.nav-item a:hover{
+    color:var(--heading-color);
+}
 
+.button-section button:hover {
+    background-color:var(--heading-color);
+}
+
+.button-section .active {
+    background-color: var(--heading-color);
+    cursor: pointer;
+    font-family: var(--text-font-family);
+    font-size: 16px;
+}
+    
+.background-secton{
+    background-color:#2F303A;
+}
+.pragraf-section p, .our-team p,.section-container p  {
+    font-family: var(--text-font-family);
+    font-weight: 400;
+    color: var(--color-paragraf);
+    line-height: 1.5;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo-web, .footer-logo-studio{
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+.footer-logo-studio{
+    color: #FFFFFF;
+}
+.adress-footer a{
+    font-family: var(--text-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contacts-footer a{
+    font-family: var(--text-font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color:var(--color-paragraf);
+    text-decoration: none;
+}
