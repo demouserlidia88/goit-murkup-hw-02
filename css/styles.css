@@ -4,7 +4,6 @@ body{
     --color-paragraf: #757575;
     --heading-font-family: 'Raleway', sans-serif;
     --heading-color: #2196F3;
-    line-height: 1.5;
 } 
 .global-header .main-navigation {
     font-family :var(--text-font-family);
@@ -43,7 +42,7 @@ h4{
     text-decoration: none;
 }
 
-.telefon a{
+.phone-number a{
     color: var(--color-paragraf);
     font-family: var(--text-font-family);
     font-weight: 500;
@@ -83,7 +82,7 @@ h4{
 .background-secton{
     background-color:#2F303A;
 }
-.pragraf-section p, .our-team p,.section-container p  {
+.paragraf-section p, .our-team p,.section-container p  {
     font-family: var(--text-font-family);
     font-weight: 400;
     color: var(--color-paragraf);
