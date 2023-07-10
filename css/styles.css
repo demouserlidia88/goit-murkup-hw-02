@@ -4,6 +4,7 @@ body{
     --color-paragraf: #757575;
     --heading-font-family: 'Raleway', sans-serif;
     --heading-color: #2196F3;
+    line-height: 1.5;
 } 
 .global-header .main-navigation {
     font-family :var(--text-font-family);
