@@ -26,7 +26,10 @@ h4{
 ul{
     list-style-type: none;
 }
-
+.global-header{
+    background-color: #ECECEC;
+    ;
+}
 /* logo */
 
 .logowebstudio a, .logo-studio a, span {
@@ -39,6 +42,10 @@ ul{
 }
 .logo-studio a, span{
     color: #000000;
+}
+
+.logowebstudio span:hover, .logo-studio span:hover{
+    color: var(--heading-color);
 }
 
 /* section-nav */
@@ -83,6 +90,14 @@ ul{
 
 /* section-button */
 
+.button-section{
+    font-family:var(--text-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
 .button-section button:hover {
     background-color:var(--heading-color);
 }
@@ -93,9 +108,28 @@ ul{
     font-family: var(--text-font-family);
     font-size: 16px;
 }
-    
-.background-secton{
+.button{
+    font-family:var(--text-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+/* section-background*/
+
+.background-section{
     background-color:#2F303A;
+}
+.title-background-section{
+    font-family:var(--text-font-family);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 /* section-paragraf */
@@ -106,13 +140,52 @@ ul{
     font-size: 16px;
 }
 
+/* section-what-we-do */
+
+.title-section-what-we-do{
+    font-family: var(--text-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+/* section-our-team */
+
+.title-our-team{
+    font-family:var(--text-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.name{
+    font-family:var(--text-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.job{
+    font-family:var(--text-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
 /* section-footer */
 
 .footer{
     background-color: #2F303A;
 }
 
-.footer-logo-web, .footer-logo-studio{
+.footer-logo-web, .footer-logo-studio span{
     font-weight: bold;
     font-family: var(--heading-font-family);
     font-weight: 700;
@@ -122,6 +195,9 @@ ul{
 }
 .footer-logo-studio{
     color: #FFFFFF;
+}
+.footer-logo-web span:hover, .footer-logo-studio span:hover{
+ color: var(--heading-color);
 }
 .adress-footer a{
     font-family: var(--text-font-family);
